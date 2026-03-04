@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+    <!-- internal -->
+    <style>
+        
+        .internal {
+            color: red;
+        }
+    </style>
+    <title>Meu Site</title>
+</head>
+<body>
+    <!-- 
+    1. inline: O código é escrito diretamente no elemento HTML usando o atributo "style". Exemplo: <p style="color: red;">Texto vermelho</p>
+    2. internal: O código CSS é escrito dentro de uma tag <style> no cabeçalho do documento HTML. Exemplo:
+    <style>
+    3 external: O código CSS é escrito em um arquivo separado com a extensão .css e vinculado ao documento HTML usando a tag <link>. Exemplo:
+    <link rel="stylesheet" href="styles.css">
+    -->
+    <h1>Bem vindo ao meu site</h1>
+
+    <hr>
+    
+    <!-- internal -->
+    <h1 class="internal">internal</h1>
+    <p>
+        <strong>
+        O estilo internal é útil para estilos únicos
+        </strong>
+    </p>
+
+    <br>
+    
+    <!-- inline -->
+    <h1 style="color: slateblue;">Inline</h1>
+    <p>
+        <strong>
+        O estilo inline é útil para estilos específicos e rápidos
+        </strong>
+    </p>
+
+    <br>
+
+    <!-- external -->
+    <h1 class="external">External</h1>
+    <p>
+        <strong>
+            O estilo external é a prática mais correta
+        </strong>
+    </p>
+</body>
+</html>
