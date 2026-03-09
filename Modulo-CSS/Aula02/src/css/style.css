@@ -1,3 +1,19 @@
-.external {
+/* 
+Usando class com o . e o nome da classe 
+*/
+.primeiro-h1 {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.segundo-h1 {
+    color: blue;
+}
+
+/* 
+Para usar o ID coloca a # e depois o nome do id 
+*/
+#terceiro-h1 {
     color: green;
+    font-size: 50px;
 }

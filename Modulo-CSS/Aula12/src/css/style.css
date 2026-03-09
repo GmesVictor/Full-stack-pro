@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+body  {
+  height: 180vh;
+}
+
+.container {
+    background-color: #121212;
+    height: 500px;
+    margin: 50px ;
+
+    /* 
+    ativando flexbox no container
+    */
+
+    display: flex;
+    flex-direction: row;
+}
+
+.area {
+    width: 100px;
+    height: 100px;
+
+    /* Permite que os itens encolham se necessário para caber no container. O valor padrão é 1, o que significa que os itens podem encolher proporcionalmente. */
+    flex-shrink: 1;
+
+   /* largura base para os itens, ou seja, o tamanho ideal para os itens. O flexbox tentará manter esse tamanho, mas pode ser ajustado dependendo do espaço disponível. */ 
+   flex-basis: 400px;
+
+    
+}
+
+.item-1 {
+    background-color: red;
+    flex-shrink: 1;
+}
+
+.item-2 {
+    background-color: blue;
+    flex-shrink: 1;
+}
+
+.item-3 {
+    background-color: darkgreen;
+    flex-shrink: 2;
+}

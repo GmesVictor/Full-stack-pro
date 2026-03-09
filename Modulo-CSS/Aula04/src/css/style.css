@@ -1,0 +1,31 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background-color: #121212;
+    width: 700px;
+    color: #fff;
+
+    /*
+    margin:
+    É a margem que fica em volta do elemento cima, baixo, direita e esquerda
+    */
+    margin-top: 70px;
+    margin-left: 50px;
+
+    /*
+    padding:
+    É o preenchimento que fica dentro do elemento,
+    e pode ser aplicado para cima, baixo, direita e esquerda
+    */
+    padding: 30px;
+    padding-top: 70px;
+
+    /*
+    border:
+    É a borda que fica ao redor do elemento,
+    e pode ser aplicada para cima, baixo, direita e esquerda
+    */
+    border: 2px solid red;
+}

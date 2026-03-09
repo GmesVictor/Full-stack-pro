@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+body  {
+  height: 180vh;
+}
+
+.container {
+    background-color: #121212;
+    height: 500px;
+    margin: 50px ;
+
+    /* 
+    ativando flexbox no container
+    */
+
+    display: flex;
+    flex-direction: row;
+
+    /*Justify Content*/
+    /*justify-content: space-between; faz o espaçamento entre os elementos*/
+    justify-content: space-around; /*faz o espaçamento entre os elementos, mas também tem um espaço antes do primeiro e depois do último elemento*/
+}
+
+.area {
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+}
+
+.item-1 {
+    background-color: red;
+}
+
+.item-2 {
+    background-color: blue;
+}
+
+.item-3 {
+    background-color: darkgreen;
+}
+
+.item-4 {
+    background-color: brown;
+}

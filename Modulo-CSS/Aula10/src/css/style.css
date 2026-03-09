@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+body  {
+  height: 180vh;
+}
+
+.container {
+    background-color: #121212;
+    height: 500px;
+    margin: 50px ;
+
+    /* 
+    ativando flexbox no container
+    */
+
+    display: flex;
+    /*flex-direction: row; /* direção dos itens em linha */
+    /*flex-direction: column; /* direção dos itens em coluna */
+    /*flex-direction: row-reverse;  direção dos itens em linha, mas invertida */
+    /*flex-direction: column-reverse; /* direção dos itens em coluna, mas invertida*/
+    flex-direction: column;
+}
+
+.area {
+    width: 100px;
+    height: 100px;
+}
+
+.item-1 {
+    background-color: red;
+}
+
+.item-2 {
+    background-color: blue;
+}
+
+.item-3 {
+    background-color: darkgreen;
+}

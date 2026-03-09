@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+body  {
+  height: 180vh;
+}
+
+.container {
+    background-color: #121212;
+    height: 500px;
+    margin: 50px ;
+
+    /* 
+    ativando flexbox no container
+    */
+
+    display: flex;
+    flex-direction: row;
+
+    /*
+    alinha os itens no eixo transversal (perpendicular ao eixo principal). O valor padrão é stretch, o que significa que os itens se esticarão para preencher o container. Outras opções incluem flex-start (alinha os itens no início do container), flex-end (alinha os itens no final do container) e center (alinha os itens no centro do container).
+    */
+    align-items: center;
+    justify-content: center;
+
+    /*
+    move um item específico para uma posição diferente no eixo transversal, ignorando o valor definido para os outros itens. O valor padrão é auto, o que significa que o item seguirá o alinhamento definido pelo align-items do container. Outras opções incluem flex-start, flex-end, center e stretch.
+    */
+    align-self: auto;
+}
+
+.area {
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+}
+
+.item-1 {
+    background-color: red;
+    align-self: flex-end;
+}
+
+.item-2 {
+    background-color: blue;
+    align-self: flex-start;
+}
+
+.item-3 {
+    background-color: darkgreen;
+    align-self: stretch;
+
+}
+
+.item-4 {
+    background-color: brown;
+    align-self: center;
+}

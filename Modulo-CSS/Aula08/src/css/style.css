@@ -1,0 +1,34 @@
+body  {
+  height: 180vh;
+}
+
+.container {
+  background-color: #121212;
+  width: 700px;
+  color: #FFF;
+  margin: auto;
+  padding: 50px;
+  border: 5px solid red;
+  border-radius: 10px;
+  position: static;
+}
+
+/*
+    >1. por padrão temos o Static, ou seja, o elemento é posicionado de acordo com o fluxo normal do documento. Ele é posicionado onde ele aparece no código HTML, e os outros elementos são posicionados em relação a ele.
+    
+    >2. o Relative é um tipo de posicionamento que permite que um elemento seja posicionado em relação à sua posição normal. Ele é posicionado onde ele aparece no código HTML, mas pode ser movido para cima, para baixo, para a esquerda ou para a direita usando as propriedades (top, bottom, left e right).
+
+    >3. o Absolute é um tipo de posicionamento que permite que um elemento seja posicionado em relação ao seu elemento pai mais próximo que tenha um posicionamento diferente de Static. Ele é posicionado onde ele aparece no código HTML, mas pode ser movido para cima, para baixo, para a esquerda ou para a direita usando as propriedades (top, bottom, left e right).
+
+    >4. o Fixed é um tipo de posicionamento que permite que um elemento seja posicionado em relação à janela do navegador. Ele é posicionado onde ele aparece no código HTML, mas pode ser movido para cima, para baixo, para a esquerda ou para a direita usando as propriedades (top, bottom, left e right). Ele permanece fixo na tela mesmo quando o usuário rola a página.
+
+    >5. o Sticky é um tipo de posicionamento que permite que um elemento seja posicionado em relação à sua posição normal, mas ele se torna fixo quando o usuário rola a página. Ele é posicionado onde ele aparece no código HTML, mas pode ser movido para cima, para baixo, para a esquerda ou para a direita usando as propriedades (top, bottom, left e right). Ele permanece fixo na tela quando o usuário rola a página até que ele alcance um determinado ponto, e então ele volta a ser posicionado de acordo com o fluxo normal do documento.
+*/
+
+header {
+    background-color: cyan;
+    width: 100%;
+
+    position: sticky;
+    top: 0;
+}

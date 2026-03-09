@@ -1,0 +1,21 @@
+body  {
+  height: 180vh;
+}
+
+.container {
+  background-color: #121212;
+  width: 700px;
+  color: #FFF;
+  margin: auto;
+  padding: 50px;
+  border: 5px solid red;
+  border-radius: 10px;
+  position: static;
+}
+
+.area {
+  position: fixed;
+  width: 200px;
+  height: 80px;
+  background-color: green;
+}
